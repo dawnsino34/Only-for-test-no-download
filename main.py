@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 from serial_crawler import serial_crawler
 from parallel_crawler import parallel_crawler
 
-test_sizes = [10, 100, 1000, 10000]
-thread_process_counts = [2, 4, 8, 16, 32]
-runs_per_combination = 10
+test_sizes = [2,3,4]
+thread_process_counts = [2, 4, 8]
+runs_per_combination = 2z
 
 results = []
 
